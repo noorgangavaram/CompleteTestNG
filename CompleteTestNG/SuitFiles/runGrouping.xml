@@ -1,0 +1,12 @@
+<suite name="Grouping">
+    <test name="run Grouping">
+        <groups>
+            <run>
+                <exclude name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="GroupingExamples"/>
+        </classes>
+    </test>
+</suite>

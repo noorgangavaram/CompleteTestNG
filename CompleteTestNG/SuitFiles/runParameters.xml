@@ -1,0 +1,12 @@
+<suite name="parameters">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+
+    <test name="Run parameters1">
+        <classes>
+              <class name="ParametersExamples"/>
+        </classes>
+    </test>
+
+
+</suite>
